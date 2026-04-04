@@ -13,6 +13,7 @@
   - slack 검색 → 결과 목록에서 방향키 ↓ 로 선택 → 스페이스바 + 엔터
   - scope 선택(user, project, local)하여 설치
 ![img.png](../images/slack-mcp01.png)
+
 ![img.png](../images/slack-mcp02.png)
 
 ### 2. MCP 권한 설정
@@ -29,8 +30,11 @@
   - Authenticate 선택 → 엔터
   - 로그인 후 권한 허용 동의
 ![img.png](../images/slack-mcp03.png)
+
 ![img.png](../images/slack-mcp04.png)
+
 ![img.png](../images/slack-mcp05.png)
+
 ![img.png](../images/slack-mcp06.png)
 
 - 완료 확인: 재실행 후 /mcp 로 연결 상태 확인
@@ -45,6 +49,7 @@
     claude$ 나에게 'test' 슬랙 메세지 보내줘
   ```
   ![img.png](../images/slack-mcp08.png)
+
   ![img_1.png](../images/slack-mcp09.png)
 
   ```shell

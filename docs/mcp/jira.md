@@ -12,8 +12,8 @@
 - atlassian(jira) plugin 검색 및 설치
   - jira 검색 → 결과 목록에서 방향키 ↓ 로 선택 → 스페이스바 + 엔터
   - scope 선택(user, project, local)하여 설치<br><br>
-  <img width="600" src="../images/jira-mcp01.png" alt="플러그인 검색 화면">
-  <img width="600" src="../images/jira-mcp02.png" alt="플러그인 설치 화면">
+  <img width="600" src="../images/jira/jira-mcp01.png" alt="플러그인 검색 화면">
+  <img width="600" src="../images/jira/jira-mcp02.png" alt="플러그인 설치 화면">
 
 ### 2. MCP 권한 설정
 - claude code 재실행(필수): 플러그인 설치 후 mcp 목록에 즉시 미반영

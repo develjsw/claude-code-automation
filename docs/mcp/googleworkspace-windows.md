@@ -54,14 +54,14 @@ Google Workspace를 Claude Code와 연동하는 방법을 검토한 결과, 아�
   $ gws auth setup
   ```
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp12.png" alt="gws auth setup 실행 화면">
-- Step2. 로그인 및 인증
+- Step2. 로그인 및 인증<br>
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp13.png" alt="로그인 화면 1">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp14.png" alt="로그인 화면 2">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp16.png" alt="로그인 화면 3">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp17.png" alt="인증 화면 1">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp18.png" alt="인증 화면 2">
-- Step3. GCP Project 생성
-  - Create new project 커서 위치에서 Enter
+- Step3. GCP Project 생성<br>
+  - Create new project 커서 위치에서 Enter<br>
     <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp19.png" alt="GCP 프로젝트 생성 화면">
   - 프로젝트명 정하고 Enter (**전세계에서 고유한 값으로만 생성가능**)
     <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp20.png" alt="프로젝트명 입력 화면">
@@ -71,37 +71,37 @@ Google Workspace를 Claude Code와 연동하는 방법을 검토한 결과, 아�
 - Step5. Oauth 설정(테스트 사용자 생성, Oauth Client 생성 포함)
   - 아래 경로 복사 후 브라우저에 붙여넣기
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp22.png" alt="OAuth 설정 URL 화면">
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp23.png" alt="OAuth 설정 화면 1">
-  - 값 작성
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp23.png" alt="OAuth 설정 화면 1"><br>
+  - 값 작성<br>
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp24.png" alt="OAuth 값 작성 화면 1">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp25.png" alt="OAuth 값 작성 화면 2">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp26.png" alt="OAuth 값 작성 화면 3">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp27.png" alt="OAuth 값 작성 화면 4">
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp28.png" alt="OAuth 값 작성 화면 5">
-  - 테스트 사용자 생성
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp29.png" alt="테스트 사용자 생성 화면">
-  - Oauth Client 생성
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp28.png" alt="OAuth 값 작성 화면 5"><br>
+  - 테스트 사용자 생성<br>
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp29.png" alt="테스트 사용자 생성 화면"><br>
+  - Oauth Client 생성<br>
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp30.png" alt="OAuth Client 생성 화면 1">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp31.png" alt="OAuth Client 생성 화면 2">
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp32.png" alt="OAuth Client 생성 화면 3">
-  - 생성된 Oauth Client의 ID, 보안비밀번호 복사
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp32.png" alt="OAuth Client 생성 화면 3"><br>
+  - 생성된 Oauth Client의 ID, 보안비밀번호 복사<br>
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp33.png" alt="OAuth Client ID 복사 화면">
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp34.png" alt="OAuth Client Secret 복사 화면">
-  - Oauth Client ID 입력 후 Enter
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp35.png" alt="OAuth Client ID 입력 화면">
-  - Oauth Client 보안비밀번호 입력 후 Enter
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp36.png" alt="OAuth Client Secret 입력 화면">
-  - 로그인 허용
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp37.png" alt="로그인 허용 화면">
-  - Enter
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp38.png" alt="Enter 입력 화면">
-  - 아래 경로 복사 후 브라우저에 붙여넣기
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp34.png" alt="OAuth Client Secret 복사 화면"><br>
+  - Oauth Client ID 입력 후 Enter<br>
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp35.png" alt="OAuth Client ID 입력 화면"><br>
+  - Oauth Client 보안비밀번호 입력 후 Enter<br>
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp36.png" alt="OAuth Client Secret 입력 화면"><br>
+  - 로그인 허용<br>
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp37.png" alt="로그인 허용 화면"><br>
+  - Enter<br>
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp38.png" alt="Enter 입력 화면"><br>
+  - 아래 경로 복사 후 브라우저에 붙여넣기<br>
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp39.png" alt="재인증 URL 화면">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp40.png" alt="브라우저 인증 화면 1">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp41.png" alt="브라우저 인증 화면 2">
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp42.png" alt="브라우저 인증 화면 3">
-  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp43.png" alt="브라우저 인증 화면 4">
-  - 다시 Powershell을 확인해보면 다음과 같이 success 되어 있음
+  <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp43.png" alt="브라우저 인증 화면 4"><br>
+  - 다시 Powershell을 확인해보면 다음과 같이 success 되어 있음<br>
   <img width="600" src="../images/googleworkspace/windows/googleworkspace-mcp44.png" alt="인증 success 화면">
 
 ### 4. Gws Skill 추가 (클로드 코드에서 gws 사용할 수 있도록 추가) 

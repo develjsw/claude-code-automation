@@ -2,15 +2,17 @@
 
 ## 도구 선택 기준
 
-Google Workspace를 Claude Code와 연동하는 방법을 검토한 결과, **gws CLI**(`@googleworkspace/cli`)를 선택함
+Google Workspace와 Claude Code 연동을 위한 도구로 **gws CLI**(`@googleworkspace/cli`)를 선택함
 - gws CLI는 Google Workspace 공식 GitHub 조직(`github.com/googleworkspace/cli`)에서 관리하는 CLI 도구
 
-| 옵션 | 상태 | 문제점 |
-|------|------|--------|
-| Anthropic Google Drive MCP | 아카이브 (2024.11 이후 미업데이트) | 읽기 전용, 드라이브만 지원, 더 이상 개발 안 됨 |
-| 커뮤니티 Google Workspace MCP들 | 비공식 | 유지보수 불안정, API 변경 대응 불확실 |
-| **gws CLI** (`googleworkspace/cli`) | 활성 개발 중 (2026.03~) | - |
+| 옵션 | 상태                                 | 문제점 |
+|------|------------------------------------|--------|
+| Anthropic Google Drive MCP | 아카이브 (2024.11 이후 미업데이트)            | 읽기 전용, 드라이브만 지원, 더 이상 개발 안 됨 |
+| 커뮤니티 Google Workspace MCP들 | 비공식                                | 유지보수 불안정, API 변경 대응 불확실 |
+| **gws CLI** (`googleworkspace/cli`) | 공식 조직에서 개발시작 (2026.03~), 꾸준히 업데이트중 | - |
 
+- google 공식 조직에서 개발중이며 꾸준하게 업데이트 되고 있기 때문에 gws cli를 선택함
+- 아쉬운 부분은 3월부터 공개되어 공식 문서 외에는 자료를 찾기 힘들었고, 1건의 자료가 있었으나 mac 기준으로만 작성되어 있었음
 
 ---
 

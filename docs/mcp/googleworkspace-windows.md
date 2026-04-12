@@ -1,23 +1,16 @@
-# Google Workspace — gws CLI (windows)
+# Google Workspace - gws CLI (windows)
 
-## 배경 및 도구 선택 근거
+## 도구 선택 기준
 
-Google Workspace를 Claude Code와 연동하는 방법을 검토한 결과, 아래와 같은 이유로 **gws CLI**를 선택함
+Google Workspace를 Claude Code와 연동하는 방법을 검토한 결과, **gws CLI**(`@googleworkspace/cli`)를 선택함
+- gws CLI는 Google Workspace 공식 GitHub 조직(`github.com/googleworkspace/cli`)에서 관리하는 CLI 도구
 
-| 옵션 | 상태 | 문제점                          |
-|------|------|------------------------------|
+| 옵션 | 상태 | 문제점 |
+|------|------|--------|
 | Anthropic Google Drive MCP | 아카이브 (2024.11 이후 미업데이트) | 읽기 전용, 드라이브만 지원, 더 이상 개발 안 됨 |
-| 커뮤니티 Google Workspace MCP들 | 비공식 | 유지보수 불안정, API 변경 대응 불확실      |
-| **gws CLI** (`googleworkspace/cli`) | 활성 개발 중 | -                            |
+| 커뮤니티 Google Workspace MCP들 | 비공식 | 유지보수 불안정, API 변경 대응 불확실 |
+| **gws CLI** (`googleworkspace/cli`) | 활성 개발 중 (2026.03~) | - |
 
-**gws CLI 선택 이유:**
-- `github.com/googleworkspace/cli` — Google Workspace 공식 GitHub 조직에서 관리
-- Google Discovery Service를 런타임에 읽어 명령어를 동적으로 생성 → Google API 업데이트 자동 반영
-- Gmail, Drive, Calendar, Sheets, Docs, Chat, Admin 등 전 서비스 지원 (읽기/쓰기 모두)
-- Claude Code용 Agent Skills 공식 제공 (기능별 skill, persona, recipe 포함)
-- 구조화된 JSON 출력, 자동 페이지네이션, 드라이런 모드 등 AI 에이전트 친화적 설계
-
-> `googleworkspace` 공식 조직에서 관리되는 프로젝트이며 **2026년 3월 첫 등장** 이후 가장 활발히 개발 중인 최신 선택지
 
 ---
 

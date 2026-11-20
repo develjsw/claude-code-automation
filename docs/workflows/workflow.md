@@ -13,7 +13,7 @@
 | GitLab MCP | 브랜치 생성, 파일 수정, MR 생성 | [gitlab.md](../mcp/gitlab.md) |
 | Slack MCP | 관련 논의 및 결정사항 검색 | [slack.md](../mcp/slack.md) |
 | Jira MCP | 요구사항·이슈 티켓 확인 | [jira.md](../mcp/jira.md) |
-| gws CLI | Google Drive·Docs 기획서 검색 | [googleworkspace-windows.md](../mcp/googleworkspace-windows.md) |
+| gws CLI | Google Drive·Docs 기획서 검색 | [googleworkspace-windows.md](../cli/googleworkspace-windows.md) |
 
 ---
 
